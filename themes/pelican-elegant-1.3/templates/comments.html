@@ -1,4 +1,4 @@
-{% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+<!--{% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
 <section>
 {% if COMMENTS_INTRO %}
 <p id="comment-message">{{ COMMENTS_INTRO }} </p>
@@ -24,4 +24,16 @@
     </div>
 </div>
 </section>
-{% endif %}
+{% endif %}-->
+  {% if DUOSHUO_SITENAME and SITEURL and article.status != "draft" %}
+  <div>
+  <section>
+    <h1>Comments</h1>
+    <div id="DuoShuoComment" aria-live="polite">
+      {% include 'duoshuo/DuoShuo_Script.html' %}
+      {% include 'duoshuo/DuoShuo_thread.html' %}
+    </div>
+  </section>
+  <div>
+  {% endif %}
+

@@ -1,12 +1,43 @@
-body,html{
-    height:100%;
+body{
+	margin-left:40px;
+	margin-right:40px;
+	margin-bottom:40px;
+	min-height:100%;
+}
+html{
+	background: #252525;
+}
+
+#author_header {
+    font-size: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+	background: #333;
+	padding-left:20px;
+	padding-right:20px;
+	margin:0,0,0,0;
+}
+
+#grey{
+	color:#aa9e81
+}
+
+#author_light{
+	color:#f2f2f2;
+}
+
+.empty-liquid div{
+	min-height:300px;
 }
 
 h1, h2, h3, h4, h5, h5 {
     font-family: Baskerville, Garamond, Georgia, "DejaVu Serif", "Times New Roman", Times, serif;
     font-weight: normal;
 }
-    
+   
+#content-wrapper{
+	height:100%;
+}   
 #content-sans-footer{
     min-height:100%;
 }
@@ -395,3 +426,4 @@ dt:hover > a.headerlink {
     visibility: visible;
     text-decoration:none;
 }
+

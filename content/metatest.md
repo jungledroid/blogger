@@ -11,7 +11,7 @@ Status: published
 This is an metadata test markdown blog
 It is possible to translate articles. To do so, you need to add a lang meta attribute to your articles/pages and set a DEFAULT_LANG setting (which is English [en] by default). With those settings in place, only articles with the default language will be listed, and each article will be accompanied by a list of available translations for that article
 [a link to test file]({filename}cat/test.md)
-[a link to static file]({attach}pngs/aa.png)
+[a link to static file]({filename}images/favicon.ico)
 
 
 

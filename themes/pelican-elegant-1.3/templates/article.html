@@ -36,9 +36,8 @@
         {% else %}
         <div class="span8 offset2 article-content">
             {% endif %}
-
             {{ article.content }}
-            {% include 'comments.html' %}
+           
             <aside>
             <hr/>
             {% for an_article in dates %}
@@ -75,7 +74,9 @@
             {% endif %}
             {% endfor %}
             </aside>
+			
         </div>
+		 
         <section>
         <div class="span2" style="float:right;font-size:0.9em;">
             {% if article.date %} 
@@ -126,10 +127,12 @@
             {% endif %}
         </div>
         </section>
+		
 </div>
+{% include 'comments.html' %}
 </article>
 {% endblock content %}
-
+<!--
 {% block script %}
     {{ super() }}
     {% include 'disqus_script_count.html' %}
@@ -151,4 +154,4 @@
             uncollapse(); 
         </script>
     {% endif %}
-{% endblock script %}
+{% endblock script %}-->

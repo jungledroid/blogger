@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joe'
 SITENAME = 'Joe Blog'
-SITEURL = ''
+SITEURL = 'http://localhost:8000'
 DATE_FORMATS = {
         'zh_CN': '%Y-%m-%d %H:%M:%S',
 }
@@ -17,8 +17,18 @@ TIMEZONE = 'Asia/Shanghai'
 DEFAULT_LANG = 'zh_CN'
 #custom default config 
 DEFAULT_DATE = 'fs'
-STATIC_PATHS = ['pngs']
+STATIC_PATHS = ['images','duoshuo']
 THEME = 'themes/pelican-elegant-1.3'
+
+DUOSHUO_SITENAME = "itrecorder-gitcafe"
+
+EXTRA_PATH_METADATA = {
+    'files/github/.nojekyll': {'path': '.nojekyll'},
+    'files/github/404.html': {'path': '404.html'},
+    'files/github/README.md': {'path': 'README.md'},
+    'files/robots.txt': {'path': 'robots.txt'},
+    'images/favicon.ico': {'path': 'favicon.ico'},
+}
 
 
 #custom the config
