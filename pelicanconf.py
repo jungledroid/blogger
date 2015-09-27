@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joe'
 SITENAME = 'Joe Blog'
-SITEURL = 'http://localhost:8000'
+SITEURL = ''
 DATE_FORMATS = {
         'zh_CN': '%Y-%m-%d %H:%M:%S',
 }
