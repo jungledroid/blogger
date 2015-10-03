@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joe'
 SITENAME = 'Joe Blog'
-SITEURL = ''
+SITEURL = 'http://itrecorder.gitcafe.io'
 DATE_FORMATS = {
         'zh_CN': '%Y-%m-%d %H:%M:%S',
 }

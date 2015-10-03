@@ -3,6 +3,16 @@
     <head>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "//hm.baidu.com/hm.js?7a94f0686d2bc8b893900ad80be20808";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+
         {% if article and article.author %}
         <meta name="author" content="{{ article.author }}" />
         <meta name="copyright" content="{{ article.author }}" />
@@ -58,7 +68,6 @@
 						<div class="nav-collapse collapse">
 							<ul class="nav pull-right top-menu">
 								<li {% if page_name == "index" %} class="active"{% endif %}><a href="/">主页</a></li>
-								{{ SITEURL }}
 								{% if DISPLAY_PAGES_ON_MENU %}
 								{% for page in pages %}
 								<li {% if output_file == page.url %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
