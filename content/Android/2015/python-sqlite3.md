@@ -4,7 +4,7 @@ Tags: python,sqlite3
 Date: 2015-9-17 23:00
 Modified: 2015-9-17 23:30
 Slug:sqlite3-test
-Authors:Joe Zhang,Jerry Li
+Authors:Joe Zhang
 Summary: summary of metadata test
 Status: published
 
