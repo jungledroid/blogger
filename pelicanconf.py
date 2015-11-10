@@ -19,9 +19,14 @@ DEFAULT_LANG = 'zh_CN'
 #custom default config 
 DEFAULT_DATE = 'fs'
 STATIC_PATHS = ['images','duoshuo']
-THEME = 'themes/pelican-elegant-1.3'
+#THEME = 'themes/pelican-elegant-1.3'
+#THEME = 'niu-x2'
+THEME = 'pelican-themes/gum'
+#THEME = 'pelican-themes/notmyidea-cms'
+#THEME = 'pelican-themes/pelican-bootstrap3'
+#THEME = 'pelican-themes/notebook'
 
-DUOSHUO_SITENAME = "itrecorder-gitcafe"
+DUOSHUO_SITENAME = "jungledroid"
 
 EXTRA_PATH_METADATA = {
     'files/github/.nojekyll': {'path': '.nojekyll'},
