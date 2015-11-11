@@ -28,7 +28,10 @@ Status: published
 - 很多时候局部卡片要进行刷新不够流畅
 - 某个卡片局部的显示和隐藏操作，会出现卡顿
 
-最近又遇到相似的需求，于是决定使用不同的方式进行优化。google找到这篇博客https://code.facebook.com/posts/879498888759525/fast-rendering-news-feed-on-android/ 总结起来一句话：将逻辑单元拆分成多个视图单元。按这种思路重新实现了下，效果还不错。
+最近又遇到相似的需求，于是决定使用不同的方式进行优化。google找到这篇博客https://code.facebook.com/posts/879498888759525/fast-rendering-news-feed-on-android/ 总结起来一句话：将逻辑单元拆分成多个视图单元。按这种思路重新实现了下，先上效果
+
+![feedlist{1280x800}](http://7xo8z5.com1.z0.glb.clouddn.com/feedlist.gif)
+
 
 ###实现思路
 

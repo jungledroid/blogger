@@ -21,10 +21,10 @@ DEFAULT_DATE = 'fs'
 STATIC_PATHS = ['images','duoshuo']
 #THEME = 'themes/pelican-elegant-1.3'
 #THEME = 'niu-x2'
-#THEME = 'pelican-themes/gum'
+THEME = 'pelican-themes/gum'
 #THEME = 'pelican-themes/notmyidea-cms'
 #THEME = 'pelican-themes/pelican-bootstrap3'
-THEME = 'pelican-themes/notebook'
+#THEME = 'pelican-themes/notebook'
 
 DUOSHUO_SITENAME = "jungledroid"
 
@@ -57,8 +57,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/jungledroid'),
+          ('新浪微博', 'http://weibo.com/u/5741921914'),)
 
 DEFAULT_PAGINATION = 10
 

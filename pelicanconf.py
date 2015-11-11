@@ -57,8 +57,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Github', 'https://github.com/jungledroid'),
+          ('新浪微博', 'http://weibo.com/u/5741921914'),)
 
 DEFAULT_PAGINATION = 10
 
